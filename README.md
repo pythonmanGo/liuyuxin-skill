@@ -12,6 +12,11 @@
 
 ## 📦 安装
 
+
+📋 配置说明：
+安装后需配置 EXA_API_KEY 环境变量：
+1. 访问 https://exa.ai 注册获取 API Key
+2. export EXA_API_KEY=your-api-key-here
 将 `刘雨鑫-美食探店.skill` 文件放入 OpenClaw skills 目录：
 
 ```bash
@@ -22,25 +27,55 @@ cp 刘雨鑫-美食探店.skill ~/.openclaw/skills/
 unzip 刘雨鑫-美食探店.skill -d ~/.openclaw/skills/local-guide
 ```
 
-## ⚙️ 配置
 
+【美食探店技能 - ClawHub安装指南】
+
+🔧 安装方式（选择其一）：
+
+方式1 - OpenClaw 命令（推荐）：
+openclaw skills install liuyuxin
+
+方式2 - ClawHub 命令：
+npx clawhub@latest install liuyuxin
+
+方式3 - 直接访问：
+https://clawhub.ai/skills/liuyuxin
+
+📋 配置说明：
+安装后需配置 EXA_API_KEY 环境变量：
+1. 访问 https://exa.ai 注册获取 API Key
+2. export EXA_API_KEY=your-api-key-here
+3. 
 使用前需配置以下环境变量：
 
 ### EXA 搜索引擎（必需）
 
-```bash
-# 1. 注册获取 API Key：https://exa.ai
-# 2. 配置环境变量
+**获取 EXA API Key 详细步骤：**
 
-# Linux/Mac
-export EXA_API_KEY=your-api-key-here
+1. **注册账号**
 
-# Windows
-set EXA_API_KEY=your-api-key-here
+   - 访问 https://exa.ai
+   - 点击 "Sign Up" 或 "Get Started"
+   - 选择 Google/GitHub 登录或邮箱注册
 
-# 添加到 ~/.bashrc 或 ~/.zshrc 永久保存
-echo 'export EXA_API_KEY=your-api-key-here' >> ~/.bashrc
-```
+2. **进入 Dashboard**
+
+   - 登录后进入 Dashboard
+   - 或点击右上角头像 → Dashboard
+
+3. **获取 API Key**
+
+   - 左侧菜单找到 "API Keys"
+   - 点击 "Create new API Key"
+   - 输入名称（如 local-guide）
+   - 点击 Create 并复制生成的 Key
+
+4. **配置环境变量**
+
+输入OPENCLAW 让它帮忙配置key。
+
+**免费额度：** EXA 每月提供 1000 次免费搜索请求
+
 
 ### 飞书卡片（可选）
 
