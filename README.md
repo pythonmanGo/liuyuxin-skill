@@ -130,3 +130,7 @@ MIT License
 
 **技能名称**：美食探店 - 本地通推荐  
 **版本**：1.0.0
+
+龙虾openclaw技能交流：
+![a5ce145d0cd349c7cd317d3c41f569d](https://github.com/user-attachments/assets/597f1b74-dd92-4e5d-90d9-b36dd4074e2f)
+
