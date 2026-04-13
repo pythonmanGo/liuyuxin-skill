@@ -45,7 +45,7 @@ https://clawhub.ai/skills/liuyuxin
 安装后需配置 EXA_API_KEY 环境变量：
 1. 访问 https://exa.ai 注册获取 API Key
 2. export EXA_API_KEY=your-api-key-here
-3. 
+
 使用前需配置以下环境变量：
 
 ### EXA 搜索引擎（必需）
